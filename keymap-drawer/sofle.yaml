@@ -1,10 +1,10 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
-  BAS: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', Esc, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', ↹, A, S, D, F, G, H, J, K, L,
-    ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$',
-    '$$mdi:apple-keyboard-control$$', LOW, ⏎, ␣, RAI, '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$']
-  LOW:
-  - '`'
+  BAS: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', ⌦, Q, W, E, R, T, Y, U, I, O, P, '-', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
+    Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', LEFT GUI, SYM, ␣, BACKSPACE, ↹, ENTER, NAV, RMETA,
+    RIGHT ALT]
+  SYM:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -16,27 +16,27 @@ layers:
   - F9
   - F10
   - F11
-  - RAI
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
+  - {t: ▽, type: trans}
+  - '`'
+  - '*'
+  - ^
+  - \
+  - '|'
+  - '#'
+  - '{'
+  - '}'
   - '9'
   - '0'
   - F12
   - {t: ▽, type: trans}
+  - AMPERSAND
   - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
+  - <
+  - '>'
+  - '='
+  - ':'
+  - (
+  - )
   - (
   - )
   - '|'
@@ -44,15 +44,14 @@ layers:
   - '='
   - '-'
   - KP PLUS
-  - '{'
-  - '}'
+  - '!'
+  - $
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '@'
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +63,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RAI:
+  - {t: ▽, type: trans}
+  NAV:
   - BT CLR
   - BT 1
   - BT 2
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&soft_off'
   - {t: ▽, type: trans}
   - Insert
   - Print Scrn
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
@@ -121,7 +121,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
