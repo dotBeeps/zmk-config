@@ -15,20 +15,23 @@
             tap-ms = <30>;
             wait-ms = <30>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N3 &kp N6>;
+            label = "dog"
         };
 
-        heart_orange: heart_orange {
+        orange_heart: orange_heart {
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N9 &kp E &kp N1>;
+            label = "orange_heart"
         };
 
-        heart_black: heart_black {
+        black_heart: black_heart {
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N5 &kp A &kp N4>;
+            label = "hea"
         };
 
         yellow_heart: yellow_heart {
