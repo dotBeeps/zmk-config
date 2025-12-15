@@ -1,9 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  BAS: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', ⌦, Q, W, E, R, T, Y, U, I, O, P, '-', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
-    Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', LEFT GUI, SYM, ␣, BACKSPACE, ↹, ENTER, NAV, RMETA,
-    RIGHT ALT]
-  SYM:
+  BASE: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', ⌦, Q, W, E, R, T, Y, U, I, O, P, '-', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
+    Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, RIGHT ALT, '$$mdi:apple-keyboard-option$$', LEFT GUI, SYMB, ␣, BACKSPACE, ↹, ENTER, NAV, RMETA, RSHIFT]
+  SYMB:
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -20,7 +19,7 @@ layers:
   - '`'
   - '*'
   - ^
-  - \
+  - ':'
   - '|'
   - '#'
   - '{'
@@ -30,21 +29,21 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - AMPERSAND
-  - '!'
   - <
   - '>'
   - '='
+  - '!'
   - ':'
   - (
   - )
   - (
-  - )
-  - '|'
   - {t: ▽, type: trans}
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '~'
   - '-'
   - KP PLUS
-  - '!'
+  - '-'
   - $
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -52,7 +51,7 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,12 +70,12 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&soft_off'
+  - '&dog'
+  - '&blue_heart'
+  - '&orange_heart'
+  - '&purple_heart'
+  - '&black_heart'
+  - '&yellow_heart'
   - {t: ▽, type: trans}
   - Insert
   - Print Scrn
@@ -114,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&soft_off'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
