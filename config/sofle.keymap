@@ -14,6 +14,7 @@
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
+            #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N3 &kp N6>;
             label = "dog"
         };
@@ -22,6 +23,7 @@
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
+            #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N9 &kp E &kp N1>;
             label = "orange_heart"
         };
@@ -30,29 +32,36 @@
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
+            #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N5 &kp A &kp N4>;
-            label = "hea"
+            label = "black_heart"
         };
 
         yellow_heart: yellow_heart {
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
+            #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp B>;
+            label = "yellow_heart"
         };
 
         purple_heart: purple_heart {
             compatible = "zmk,behavior-macro";
             wait-ms = <30>;
             tap-ms = <30>;
+            #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp C>;
+            label = "purple_heart"
         };
 
         blue_heart: blue_heart {
             compatible = "zmk,behavior-macro";
             tap-ms = <30>;
             wait-ms = <30>;
+            #binding-cells = <0>;
             bindings = <&macro_tap &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp N9>;
+            label = "blue_heart"
         };
     };
 
