@@ -19,7 +19,7 @@ layers:
   - '`'
   - '*'
   - ^
-  - KP PLUS
+  - ':'
   - '|'
   - '#'
   - '{'
@@ -37,10 +37,10 @@ layers:
   - (
   - )
   - (
-  - )
-  - '|'
   - {t: ▽, type: trans}
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '~'
   - '-'
   - KP PLUS
   - '-'
@@ -70,12 +70,12 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&soft_off'
+  - '&dog'
+  - '&blue_heart'
+  - '&orange_heart'
+  - '&purple_heart'
+  - '&black_heart'
+  - '&yellow_heart'
   - {t: ▽, type: trans}
   - Insert
   - Print Scrn
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&soft_off'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
