@@ -16,7 +16,7 @@
             wait-ms = <30>;
             #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N3 &kp N6>;
-            label = "dog"
+            label = "dog";
         };
 
         orange_heart: orange_heart {
@@ -25,7 +25,7 @@
             wait-ms = <30>;
             #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N9 &kp E &kp N1>;
-            label = "orange_heart"
+            label = "orange_heart";
         };
 
         black_heart: black_heart {
@@ -34,7 +34,7 @@
             wait-ms = <30>;
             #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N5 &kp A &kp N4>;
-            label = "black_heart"
+            label = "black_heart";
         };
 
         yellow_heart: yellow_heart {
@@ -43,7 +43,7 @@
             wait-ms = <30>;
             #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp B>;
-            label = "yellow_heart"
+            label = "yellow_heart";
         };
 
         purple_heart: purple_heart {
@@ -52,7 +52,7 @@
             tap-ms = <30>;
             #binding-cells = <0>;
             bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp C>;
-            label = "purple_heart"
+            label = "purple_heart";
         };
 
         blue_heart: blue_heart {
@@ -61,7 +61,7 @@
             wait-ms = <30>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp N9>;
-            label = "blue_heart"
+            label = "blue_heart";
         };
     };
 
