@@ -15,7 +15,7 @@
             tap-ms = <20>;
             wait-ms = <20>;
             #binding-cells = <0>;
-            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N3 &kp N6 &kp ENTER>;
+            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N3 &kp N6 &kp SPACE>;
             label = "dog";
         };
 
@@ -24,7 +24,7 @@
             tap-ms = <20>;
             wait-ms = <20>;
             #binding-cells = <0>;
-            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N9 &kp E &kp N1 &kp ENTER>;
+            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N9 &kp E &kp N1 &kp SPACE >;
             label = "orange_heart";
         };
 
@@ -33,7 +33,7 @@
             tap-ms = <20>;
             wait-ms = <20>;
             #binding-cells = <0>;
-            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N5 &kp A &kp N4 &kp ENTER>;
+            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N5 &kp A &kp N4 &kp SPACE >;
             label = "black_heart";
         };
 
@@ -42,7 +42,7 @@
             tap-ms = <20>;
             wait-ms = <20>;
             #binding-cells = <0>;
-            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp B &kp ENTER>;
+            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp B &kp SPACE >;
             label = "yellow_heart";
         };
 
@@ -51,7 +51,7 @@
             wait-ms = <20>;
             tap-ms = <20>;
             #binding-cells = <0>;
-            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp C &kp ENTER>;
+            bindings = <&macro_tap  &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp C &kp SPACE >;
             label = "purple_heart";
         };
 
@@ -60,7 +60,7 @@
             tap-ms = <20>;
             wait-ms = <20>;
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp N9 &kp ENTER>;
+            bindings = <&macro_tap &kp LC(LS(U)) &kp N1 &kp F &kp N4 &kp N9 &kp N9 &kp SPACE >;
             label = "blue_heart";
         };
     };
