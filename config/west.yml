@@ -32,6 +32,7 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
+    # prospector
     - name: prospector-zmk-module
       remote: carrefinho
       revision: main
