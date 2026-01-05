@@ -9,8 +9,16 @@ manifest:
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
     # prospector
-    - name: carrefinho                            # <--- add this
-      url-base: https://github.com/carrefinho     # <--- and this
+    # - name: carrefinho                            # <--- add this
+    # url-base: https://github.com/carrefinho     # <--- and this
+    - name: prospector
+      url-base: https://github.com/t-ogura
+    - name: halfdane
+      url-base: https://github.com/halfdane
+    - name: ssbb
+      url-base: https://github.com/ssbb
+    - name: kot149
+      url-base: https://github.com/kot149
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -34,7 +42,8 @@ manifest:
       revision: main
     # prospector
     - name: prospector-zmk-module                 # <--- and these
-      remote: carrefinho                          # <---
-      revision: main                              # <---  self:
+      remote: prospector                          # <---
+      revision: v2.0.0                            # <---  self:
+      path: modules/prospector-zmk-module
   self:
     path: config
