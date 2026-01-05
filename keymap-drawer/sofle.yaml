@@ -76,7 +76,7 @@ layers:
   - '&purple_heart'
   - '&black_heart'
   - '&yellow_heart'
-  - {t: ▽, type: trans}
+  - OUT TOG
   - Insert
   - Print Scrn
   - CMENU
